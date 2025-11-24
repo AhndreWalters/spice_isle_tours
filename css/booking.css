@@ -1,6 +1,3 @@
-/* ----------------------------- */
-/* Global Reset & Base Styles    */
-/* ----------------------------- */
 * {
   box-sizing: border-box;
 }
@@ -16,9 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ----------------------------- */
-/* Navigation                    */
-/* ----------------------------- */
 .sub-menu {
   position: fixed;
   top: 0;
@@ -66,7 +60,6 @@ body {
   color: #c19383;
 }
 
-/* Make logout link stand out */
 .sub-menu li:last-child {
   margin-left: auto;
   background: rgba(255,255,255,0.1);
@@ -79,12 +72,9 @@ body {
   font-weight: bold;
 }
 
-/* ----------------------------- */
-/* Page Header (Booking Title) - MATCHES ABOUT PAGE */
-/* ----------------------------- */
 .intro-content {
-  padding-top: 160px; /* Same as About page */
-  padding-bottom: 100px; /* Changed from 60px to 100px to match About page */
+  padding-top: 160px;
+  padding-bottom: 100px;
 }
 
 .intro-content .container {
@@ -95,30 +85,27 @@ body {
 }
 
 .intro-content h1.page-title {
-  font-size: 15px; /* Changed from 16px to 15px to match About page */
+  font-size: 15px;
   letter-spacing: 2px;
   color: #7c6e67;
   text-transform: uppercase;
-  margin-bottom: 25px; /* Increased from 15px to 25px to match About page */
+  margin-bottom: 25px;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
 }
 
 .intro-content p {
   font-family: "Playfair Display", serif;
-  font-weight: 100; /* Added to match About page */
+  font-weight: 100;
   font-size: 22px;
   color: #7a6f68;
-  line-height: 2.2; /* Increased from 1.9 to 2.2 to match About page */
-  letter-spacing: 0.3px; /* Added to match About page */
-  max-width: 750px; /* Increased from 700px to 750px to match About page */
-  margin: 0 auto 25px auto; /* Added bottom margin to match About page */
+  line-height: 2.2;
+  letter-spacing: 0.3px;
+  max-width: 750px;
+  margin: 0 auto 25px auto;
   text-align: center;
 }
 
-/* ----------------------------- */
-/* Message Styles                */
-/* ----------------------------- */
 .alert-success {
   background: #d4edda;
   color: #155724;
@@ -154,9 +141,6 @@ body {
   padding-left: 20px;
 }
 
-/* ----------------------------- */
-/* Booking Form Section          */
-/* ----------------------------- */
 .booking-form {
   background-color: #f7efed;
   padding: 60px 20px 100px;
@@ -227,9 +211,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* ----------------------------- */
-/* Animation                     */
-/* ----------------------------- */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -241,9 +222,6 @@ body {
   }
 }
 
-/* ----------------------------- */
-/* Responsive Tweaks             */
-/* ----------------------------- */
 @media (max-width: 768px) {
   .sub-menu ul {
     gap: 20px;

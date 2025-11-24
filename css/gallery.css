@@ -1,6 +1,3 @@
-/* ----------------------------- */
-/* Global Reset & Base Styles    */
-/* ----------------------------- */
 * {
   box-sizing: border-box;
 }
@@ -16,9 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ----------------------------- */
-/* Navigation                    */
-/* ----------------------------- */
 .sub-menu {
   position: fixed;
   top: 0;
@@ -53,9 +47,6 @@ body {
   transform: scale(1.05);
 }
 
-/* ----------------------------- */
-/* Intro Section (Header)        */
-/* ----------------------------- */
 .intro-content {
   padding-top: 160px;
   padding-bottom: 100px;
@@ -90,9 +81,6 @@ body {
   text-align: center;
 }
 
-/* ----------------------------- */
-/* Gallery Section               */
-/* ----------------------------- */
 .gallery-section {
   width: 90%;
   max-width: 1400px;
@@ -120,9 +108,6 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ----------------------------- */
-/* Lightbox                      */
-/* ----------------------------- */
 .lightbox {
   display: none;
   position: fixed;
@@ -157,9 +142,6 @@ body {
   color: #c19383;
 }
 
-/* ----------------------------- */
-/* Animations                    */
-/* ----------------------------- */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -171,9 +153,6 @@ body {
   }
 }
 
-/* ----------------------------- */
-/* Responsive                    */
-/* ----------------------------- */
 @media (max-width: 1200px) {
   .masonry-gallery {
     column-count: 3;
@@ -204,10 +183,6 @@ body {
   }
 }
 
-
-
-
-/* Improved Navigation Styles */
 .sub-menu ul {
     list-style: none;
     margin: 0;
@@ -221,7 +196,6 @@ body {
     display: inline;
 }
 
-/* Make logout link stand out */
 .sub-menu li:last-child {
     margin-left: auto;
     background: rgba(255,255,255,0.1);

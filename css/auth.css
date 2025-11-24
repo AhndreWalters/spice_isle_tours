@@ -1,7 +1,6 @@
-/* Reset and base styles - matches homepage exactly */
 body {
     margin: 0;
-    overflow: auto; /* Changed from hidden to auto for scrolling */
+    overflow: auto;
     font-family: "Playfair Display", serif;
     color: white;
     text-align: center;
@@ -10,10 +9,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px; /* Added padding for mobile */
+    padding: 20px;
 }
 
-/* Fullscreen video background - EXACTLY like homepage */
 .top-content__video {
     position: fixed;
     top: 0;
@@ -33,7 +31,6 @@ body {
     z-index: -1;
 }
 
-/* Dark overlay for better contrast */
 .video-overlay {
     position: fixed;
     top: 0;
@@ -44,16 +41,14 @@ body {
     z-index: -1;
 }
 
-/* Login Form Container - perfectly centered */
 .auth-container {
     width: 100%;
     max-width: 420px;
-    padding: 20px; /* Reduced padding since no navigation */
+    padding: 20px;
     z-index: 1;
     margin: 0 auto;
 }
 
-/* Login Form Styling - elegant and balanced */
 .auth-form {
     background: rgba(255, 255, 255, 0.92);
     padding: 50px 40px;
@@ -62,7 +57,7 @@ body {
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
-    margin: 20px 0; /* Added margin for spacing when scrolling */
+    margin: 20px 0;
 }
 
 .auth-form h2 {
@@ -181,18 +176,17 @@ a:hover {
     font-size: 15px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     body {
         padding: 15px;
-        align-items: flex-start; /* Changed to flex-start for mobile scrolling */
+        align-items: flex-start;
         min-height: 100vh;
         height: auto;
     }
     
     .auth-container {
         max-width: 380px;
-        padding: 15px; /* Reduced padding for mobile */
+        padding: 15px;
     }
     
     .auth-form {
@@ -236,7 +230,6 @@ a:hover {
     }
 }
 
-/* For very small screens */
 @media (max-height: 600px) {
     .auth-container {
         padding-top: 20px;
@@ -248,7 +241,6 @@ a:hover {
     }
 }
 
-/* Smooth animations */
 .auth-form {
     animation: fadeInUp 0.6s ease-out;
 }
@@ -264,7 +256,6 @@ a:hover {
     }
 }
 
-/* Ensure content is scrollable on all devices */
 html {
     height: 100%;
 }

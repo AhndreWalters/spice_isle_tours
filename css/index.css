@@ -1,5 +1,4 @@
-/* Reset and base styles */
-body {
+ody {
   margin: 0;
   overflow: hidden;
   font-family: "Playfair Display", serif;
@@ -7,7 +6,6 @@ body {
   text-align: center;
 }
 
-/* Fullscreen video background */
 .top-content__video video {
   position: fixed;
   top: 0;
@@ -18,7 +16,6 @@ body {
   z-index: -1;
 }
 
-/* Center text overlay */
 .top-content__uvp {
   position: absolute;
   top: 50%;

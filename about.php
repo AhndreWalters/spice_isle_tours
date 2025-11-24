@@ -34,7 +34,6 @@ require_once 'auth_check.php';
                 <div class="resort-connection">
                     <p><strong>As part of the Spice Island Beach Resort family</strong>, we maintain the highest standards of service and authenticity, ensuring that your exploration of Grenada matches the luxury and quality you'd expect from our world-class resort.</p>
                 </div>
-
                 <br>
                 <h2 class="section-title">Future Expansion</h2>
                 <div class="future-expansion">

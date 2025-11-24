@@ -2,7 +2,6 @@
 include 'config/database.php';
 include 'includes/functions.php';
 
-// Redirect if already logged in
 if (isLoggedIn()) {
     header("Location: index.php.php");
     exit;
@@ -17,7 +16,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
     
-    // Validation
     if (empty($username) || empty($email) || empty($password)) {
         $error = "All fields are required!";
     } elseif ($password !== $confirm_password) {
@@ -69,12 +67,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <form method="POST" action="">
                 <div class="form-group">
                     <label>Username:</label>
-                    <input type="text" name="username" value="<?php echo htmlspecialchars($username); ?>" required>
+                    <input type="text" name="username" value="" required>
                 </div>
                 
                 <div class="form-group">
                     <label>Email:</label>
-                    <input type="email" name="email" value="<?php echo htmlspecialchars($email); ?>" required>
+                    <input type="email" name="email" value="" required>
                 </div>
                 
                 <div class="form-group">

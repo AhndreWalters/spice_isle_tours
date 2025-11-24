@@ -1,17 +1,15 @@
 <?php
-// Start session first
 session_start();
 include 'config/database.php';
 include 'includes/functions.php';
 
-// Redirect if already logged in
 if (isLoggedIn()) {
     header("Location: index.php");
     exit;
 }
 
 $error = '';
-$username = ''; // Initialize username variable
+$username = '';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = trim($_POST['username']);

@@ -2,10 +2,8 @@
 include 'config/database.php';
 require_once 'auth_check.php';
 
-// Start session to access messages
 session_start();
 
-// Get messages from session
 $success_message = '';
 $error_messages = [];
 $form_data = [];
@@ -47,7 +45,6 @@ if (isset($_SESSION['form_data'])) {
             </div>
         </section>
         
-        <!-- Display Messages -->
         <div id="form-messages">
             <?php if ($success_message): ?>
                 <div class="alert-success" style="max-width: 600px; margin: 20px auto; padding: 15px; background: #d4edda; color: #155724; border-radius: 8px; border: 1px solid #c3e6cb;">

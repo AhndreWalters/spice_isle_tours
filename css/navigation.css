@@ -1,0 +1,72 @@
+/* ==================== */
+/* UNIVERSAL NAVIGATION */
+/* ==================== */
+.sub-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222; /* Default for all pages */
+}
+
+.sub-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-menu li {
+    display: inline-block;
+}
+
+.sub-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: color 0.4s ease, opacity 0.4s ease, transform 0.3s ease;
+}
+
+.sub-menu a:hover,
+.sub-menu a.active {
+    color: #c19383;
+    transform: scale(1.05);
+}
+
+/* Auth link styling */
+.auth-link {
+    margin-left: auto;
+    background: rgba(255,255,255,0.1);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.auth-link a {
+    color: #c19383 !important;
+    font-weight: bold;
+}
+
+/* ==================== */
+/* HOMEPAGE NAVIGATION - TRANSPARENT */
+/* ==================== */
+body.homepage .sub-menu {
+    background: transparent !important;
+    top: 25px;
+}
+
+/* ==================== */
+/* OTHER PAGES NAVIGATION */
+/* ==================== */
+body:not(.homepage) .sub-menu {
+    background-color: #222;
+}

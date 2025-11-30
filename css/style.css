@@ -1291,7 +1291,7 @@ a:hover {
 /* ===== TOURS PAGE STYLES ===== */
 .tours-list {
   max-width: 900px;
-  margin: 40px auto 100px;
+  margin: 20px auto 80px;
   padding: 0 20px;
 }
 
@@ -1300,7 +1300,7 @@ a:hover {
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -1326,7 +1326,7 @@ a:hover {
 }
 
 .tours-list {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 768px) {
@@ -1336,5 +1336,10 @@ a:hover {
 
   .tour p {
     font-size: 15px;
+  }
+
+  .tours-list {
+  margin: 15px auto 60px;
+  padding: 0 15px;
   }
 }

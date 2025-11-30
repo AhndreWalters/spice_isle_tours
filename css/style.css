@@ -822,7 +822,7 @@ a:hover {
 }
 
 /* ===== CONTACT PAGE STYLES ===== */
-.intro-content h1 {
+.intro-content h1.contact-title {
   font-size: 16px;
   letter-spacing: 2px;
   color: #7c6e67;
@@ -832,7 +832,7 @@ a:hover {
   font-weight: 100;
 }
 
-.intro-content p {
+.intro-content p.contact-intro {
   font-family: "Playfair Display", serif;
   font-weight: 100;
   font-size: 20px;
@@ -893,10 +893,13 @@ a:hover {
 }
 
 .form-container {
+  max-width: 600px;
+  margin: 0 auto;
   background: #fff;
   border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 1s ease;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -976,11 +979,11 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .intro-content h1 {
+  .intro-content h1.contact-title {
     font-size: 13px;
   }
 
-  .intro-content p {
+  .intro-content p.contact-intro {
     font-size: 17px;
   }
 
@@ -989,7 +992,7 @@ a:hover {
   }
 
   .form-container {
-    padding: 20px;
+    padding: 25px;
   }
 }
 

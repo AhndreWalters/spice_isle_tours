@@ -39,6 +39,7 @@ if (isset($_SESSION['contact_form_data'])) {
         <section class="intro-content">
             <div class="container">
                 <h1 class="page-title">Contact Us</h1>
+                 <h2>Get In Touch With Our Team</h2>
                 
                 <div id="form-messages">
                     <?php if ($success_message): ?>

@@ -896,6 +896,16 @@ a:hover {
   transform: translateY(-2px);
 }
 
+body.booking-page .intro-content {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+body.booking-page .booking-form {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
 @media (max-width: 768px) {
   .form-container {
     padding: 25px;

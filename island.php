@@ -16,7 +16,11 @@ require_once 'auth_check.php';
     <?php include 'includes/navigation.php'; ?>
     
     <section class="intro-content">
+        <div class="container">
             <h1>Island</h1>
+            <h2>Experience the Heart of the Caribbean</h2>
+            <p>Explore the rich history, vibrant culture, and breathtaking natural beauty that make Grenada one of the Caribbean's most enchanting destinations. From our spice-laden history to our stunning landscapes, discover what makes our island truly special.</p>
+            </div>
     </section>
     
     <section class="island-section">

@@ -63,6 +63,7 @@ body {
   opacity: 0.7;
   color: #c19383;
   transform: scale(1.05);
+  text-decoration: none;
 }
 
 .sub-menu ul li a.active {

@@ -782,11 +782,11 @@ a:hover {
 
 /* ===== BOOKING PAGE STYLES ===== */
 .intro-content h1.page-title {
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 2px;
   color: #7c6e67;
   text-transform: uppercase;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
 }

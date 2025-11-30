@@ -886,53 +886,29 @@ a:hover {
   text-decoration: underline;
 }
 
-.contact-form {
+.contact-form-section {
   max-width: 900px;
   margin: 40px auto 100px;
   padding: 0 20px;
+  padding-bottom: 60px;
 }
 
-.form-container {
-  max-width: 600px;
-  margin: 0 auto;
+.contact-form-section .form-container {
   background: #fff;
   border-radius: 20px;
-  padding: 40px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
-  animation: fadeIn 1s ease;
+  padding: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.form-container:hover {
+.contact-form-section .form-container:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-.form-group {
-  margin-bottom: 25px;
-  text-align: left;
-}
-
-.form-group label {
-  display: block;
-  font-size: 15px;
-  color: #5a4a42;
-  margin-bottom: 8px;
-  letter-spacing: 0.5px;
-  font-family: "Open Sans", sans-serif;
-}
-
 .form-group input,
 .form-group textarea {
-  width: 100%;
-  padding: 12px 15px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  font-size: 15px;
-  font-family: "Playfair Display", serif;
-  color: #5a4a42;
   background-color: #fff;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .form-group input::placeholder,
@@ -942,13 +918,6 @@ a:hover {
   font-family: "Playfair Display", serif;
 }
 
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: #c19383;
-  box-shadow: 0 0 0 3px rgba(193, 147, 131, 0.15);
-  outline: none;
-}
-
 .form-row {
   display: flex;
   gap: 20px;
@@ -956,26 +925,6 @@ a:hover {
 
 .half-width {
   flex: 1;
-}
-
-.submit-btn {
-  background-color: #c19383;
-  color: #fff;
-  border: none;
-  padding: 14px 30px;
-  border-radius: 12px;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  width: 100%;
-  font-family: "Open Sans", sans-serif;
-}
-
-.submit-btn:hover {
-  background-color: #b07d6f;
-  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
@@ -991,8 +940,8 @@ a:hover {
     flex-direction: column;
   }
 
-  .form-container {
-    padding: 25px;
+  .contact-form-section .form-container {
+    padding: 20px;
   }
 }
 

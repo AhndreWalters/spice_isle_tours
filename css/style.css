@@ -352,6 +352,9 @@ body.homepage {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
 .top-content__uvp .top {
@@ -360,19 +363,24 @@ body.homepage {
   font-style: italic;
   opacity: 0.8;
   margin-bottom: 10px;
+  line-height: 1.2;
 }
 
 .top-content__uvp span:not(.top):not(.bottom):not(.sub-btm) {
   font-size: 120px;
   letter-spacing: 3px;
   white-space: nowrap;
+  display: block;
+  line-height: 1.1;
+  margin-bottom: 20px;
 }
 
 .top-content__uvp .bottom {
   font-size: 90px;
   font-style: italic;
-  display: inline;
+  display: inline-block;
   margin-left: 10px;
+  line-height: 1.1;
 }
 
 .top-content__uvp .sub-btm {
@@ -382,6 +390,77 @@ body.homepage {
   letter-spacing: 2px;
   opacity: 0.8;
   text-transform: uppercase;
+  line-height: 1.5;
+}
+
+/* Welcome message styling */
+.welcome-message {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  opacity: 0.9;
+  line-height: 1.4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .top-content__uvp span:not(.top):not(.bottom):not(.sub-btm) {
+    font-size: 100px;
+  }
+  
+  .top-content__uvp .bottom {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-content__uvp .top {
+    font-size: 40px;
+  }
+  
+  .top-content__uvp span:not(.top):not(.bottom):not(.sub-btm) {
+    font-size: 70px;
+    white-space: normal;
+    line-height: 1.2;
+  }
+  
+  .top-content__uvp .bottom {
+    font-size: 55px;
+    margin-left: 0;
+    display: block;
+  }
+  
+  .top-content__uvp .sub-btm {
+    font-size: 11px;
+    margin-top: 30px;
+  }
+  
+  .welcome-message {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-content__uvp .top {
+    font-size: 30px;
+  }
+  
+  .top-content__uvp span:not(.top):not(.bottom):not(.sub-btm) {
+    font-size: 50px;
+  }
+  
+  .top-content__uvp .bottom {
+    font-size: 40px;
+  }
+  
+  .top-content__uvp .sub-btm {
+    font-size: 10px;
+    margin-top: 25px;
+  }
 }
 
 /* ===== ABOUT PAGE STYLES ===== */

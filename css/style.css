@@ -897,13 +897,13 @@ a:hover {
 }
 
 body.booking-page .intro-content {
-  padding-top: 120px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 40px;
 }
 
 body.booking-page .booking-form {
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 768px) {

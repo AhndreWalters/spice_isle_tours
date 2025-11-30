@@ -1006,6 +1006,10 @@ a:hover {
   margin-top: 20px;
 }
 
+.faq-list {
+  padding-bottom: 60px;
+}
+
 @media (max-width: 768px) {
   .faq-question {
     font-size: 20px;
@@ -1239,9 +1243,5 @@ a:hover {
 
   .tour p {
     font-size: 15px;
-  }
-
-  .tours-list {
-    padding-bottom: 40px;
   }
 }

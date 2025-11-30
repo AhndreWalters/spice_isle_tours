@@ -822,7 +822,7 @@ a:hover {
 }
 
 /* ===== CONTACT PAGE STYLES ===== */
-.intro-content h1.contact-title {
+.intro-content h1 {
   font-size: 16px;
   letter-spacing: 2px;
   color: #7c6e67;
@@ -832,7 +832,7 @@ a:hover {
   font-weight: 100;
 }
 
-.intro-content p.contact-intro {
+.intro-content p {
   font-family: "Playfair Display", serif;
   font-weight: 100;
   font-size: 20px;
@@ -892,7 +892,7 @@ a:hover {
   padding: 0 20px;
 }
 
-.contact-form .form-container {
+.form-container {
   background: #fff;
   border-radius: 20px;
   padding: 30px;
@@ -900,14 +900,36 @@ a:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-form .form-container:hover {
+.form-container:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+.form-group {
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 15px;
+  color: #5a4a42;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+  font-family: "Open Sans", sans-serif;
+}
+
 .form-group input,
 .form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  color: #5a4a42;
   background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .form-group input::placeholder,
@@ -915,6 +937,13 @@ a:hover {
   color: #9d8b84;
   opacity: 0.7;
   font-family: "Playfair Display", serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #c19383;
+  box-shadow: 0 0 0 3px rgba(193, 147, 131, 0.15);
+  outline: none;
 }
 
 .form-row {
@@ -926,17 +955,32 @@ a:hover {
   flex: 1;
 }
 
-.contact-form {
-  padding-bottom: 60px;
+.submit-btn {
+  background-color: #c19383;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 12px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+}
 
+.submit-btn:hover {
+  background-color: #b07d6f;
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {
-  .intro-content h1.contact-title {
+  .intro-content h1 {
     font-size: 13px;
   }
 
-  .intro-content p.contact-intro {
+  .intro-content p {
     font-size: 17px;
   }
 
@@ -944,7 +988,7 @@ a:hover {
     flex-direction: column;
   }
 
-  .contact-form .form-container {
+  .form-container {
     padding: 20px;
   }
 }

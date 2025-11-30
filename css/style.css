@@ -57,6 +57,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: color 0.4s ease, opacity 0.4s ease, transform 0.3s ease;
+  font-weight: lighter;
 }
 
 .sub-menu a:hover {

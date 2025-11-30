@@ -21,13 +21,17 @@ include 'config/database.php';
         </video>
     </div>
     
-    <div class="top-content__uvp"><br><br>
-        <span class="top">Grenada</span>
-        <span>Spice Isle Tours</span>
+    <div class="top-content__uvp">
+    <span class="top">Grenada</span>
+    <span>Spice Isle Tours</span>
+    
+    <?php if(isset($_SESSION['username'])): ?>
+        <div class="welcome-message">
+            Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!
+        </div>
+    <?php endif; ?>
 
-        <br><br><br><br>
-        
-        <span class="sub-btm">© 2025 All Rights Reserved</span>
-    </div>
+    <span class="sub-btm">© 2025 All Rights Reserved</span>
+</div>
 </body>
 </html>

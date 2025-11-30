@@ -78,7 +78,7 @@ if (isset($_SESSION['contact_form_data'])) {
             </div>
         </section>
         
-        <section class="contact-form">
+        <section class="contact-form-section">
             <div class="form-container">
                 <form action="process_contact.php" method="POST" class="contact-form">
                     <div class="form-row">

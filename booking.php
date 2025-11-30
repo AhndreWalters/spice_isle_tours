@@ -40,7 +40,8 @@ if (isset($_SESSION['form_data'])) {
         <section class="intro-content">
             <div class="container">
                 <h1 class="page-title">Booking</h1>
-                <p>Reserve your spot on one of our unforgettable Spice Isle Tours below.</p>
+                 <h2>Secure Your Island Adventure</h2>
+                <p>Reserve your spot on one of our unforgettable Spice Isle Tours below. Fill out the booking form with your details and preferred tour selection, and we'll get back to you promptly to confirm your reservation and provide all the necessary details for your Grenadian adventure.</p>
             </div>
         </section>
         
